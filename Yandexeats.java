@@ -17,8 +17,8 @@ public class Yandexeats {
                 case 1:
                     Methods.All();
                     backtomenu = false;
-                    int restaurants = scan.nextInt();
-                    switch (restaurants){
+                    int restaurants1 = scan.nextInt();
+                    switch (restaurants1){
                         case 1:
                             break;
                         case 2:
@@ -43,6 +43,10 @@ public class Yandexeats {
                 case 3:
                     Methods.burgers();
                     backtomenu = false;
+                    int burgersrestaurants = scan.nextInt();
+                    switch (burgersrestaurants){
+
+                    }
                     break;
                 case 4:
                     Methods.sushi();
