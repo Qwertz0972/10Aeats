@@ -80,9 +80,8 @@ public class Yandexeats {
                     moreback = true;
                     while (moreback) {
                         Methods.more();
-                        String morenums = scan.nextLine();
-                        int morenumbers = Integer.parseInt(morenums);
-                        switch (morenumbers) {
+                        int morenums = scan.nextInt();
+                        switch (morenums) {
                             case 1:
                                 Methods.russian();
                                 moreback = false;backtomenu = false;
