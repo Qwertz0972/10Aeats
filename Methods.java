@@ -29,6 +29,7 @@ public class Methods {
                 uniqueStrings.add(str);
             }
         }
+        System.out.println("0. B A C K");
     }
 
     public static void carryout() {

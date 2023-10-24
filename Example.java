@@ -28,16 +28,16 @@ public class Example {
                     case 1:
                         System.out.println("Street77 narxi 66000 ");
                         System.out.println("Buyurtma qilasizmi 1.HA , 2.YO'Q ");
-                                int street77narxi= scanner.nextInt();
-                                if (street77narxi==1){
-                                    System.out.println("Nechta buyurtma qilasiz");
-                                    int buyurtma= scanner.nextInt();
-                                    int buyurtmapuli=buyurtma*66000;
-                                    balans=balans-buyurtmapuli;
-                                    System.out.println("Siz street77ga buyurtma qildingiz narxi "+ buyurtmapuli +" sum bo'ldi va sizda "+ balans +" sum pul qoldi. ");
-                                    System.out.println("Sizning buyurtmangiz "+ vaqt +" daqiqa ichida yetib boradi. ");
-                                }
-                                break;
+                        int street77narxi= scanner.nextInt();
+                        if (street77narxi==1){
+                            System.out.println("Nechta buyurtma qilasiz");
+                            int buyurtma= scanner.nextInt();
+                            int buyurtmapuli=buyurtma*66000;
+                            balans=balans-buyurtmapuli;
+                            System.out.println("Siz street77ga buyurtma qildingiz narxi "+ buyurtmapuli +" sum bo'ldi va sizda "+ balans +" sum pul qoldi. ");
+                            System.out.println("Sizning buyurtmangiz "+ vaqt +" daqiqa ichida yetib boradi. ");
+                        }
+                        break;
                     case 2:
                         System.out.println("Combo narxi 66000 ");
                         System.out.println("Buyurtma qilasizmi 1.HA , 2.YO'Q ");
@@ -249,18 +249,18 @@ public class Example {
                         }
                         break;
                     case 6:
-                            System.out.println("Chicken Flip narxi 19000 ");
-                            System.out.println("Buyurtma qilasizmi 1.HA , 2.YO'Q ");
-                            int Chickenflipnarxi= scanner.nextInt();
-                            if (Chickenflipnarxi==1){
-                                System.out.println("Nechta buyurtma qilasiz");
-                                int buyurtma= scanner.nextInt();
-                                int buyurtmapuli=buyurtma*19000;
-                                balans=balans-buyurtmapuli;
-                                System.out.println("Siz Chicken flipga buyurtma qildingiz narxi "+ buyurtmapuli +" sum bo'ldi va sizda "+ balans +" sum pul qoldi. ");
-                                System.out.println("Sizning buyurtmangiz "+ vaqt +" daqiqa ichida yetib boradi. ");
-                            }
-                            break;
+                        System.out.println("Chicken Flip narxi 19000 ");
+                        System.out.println("Buyurtma qilasizmi 1.HA , 2.YO'Q ");
+                        int Chickenflipnarxi= scanner.nextInt();
+                        if (Chickenflipnarxi==1){
+                            System.out.println("Nechta buyurtma qilasiz");
+                            int buyurtma= scanner.nextInt();
+                            int buyurtmapuli=buyurtma*19000;
+                            balans=balans-buyurtmapuli;
+                            System.out.println("Siz Chicken flipga buyurtma qildingiz narxi "+ buyurtmapuli +" sum bo'ldi va sizda "+ balans +" sum pul qoldi. ");
+                            System.out.println("Sizning buyurtmangiz "+ vaqt +" daqiqa ichida yetib boradi. ");
+                        }
+                        break;
 
                 }
                 break;
@@ -367,18 +367,18 @@ public class Example {
                         }
                         break;
                     case 2:
-                            System.out.println("Chicken corn narxi 30000 ");
-                            System.out.println("Buyurtma qilasizmi 1.HA , 2.YO'Q ");
-                            int Chickencornnarxi= scanner.nextInt();
-                            if (Chickencornnarxi==1){
-                                System.out.println("Nechta buyurtma qilasiz");
-                                int buyurtma= scanner.nextInt();
-                                int buyurtmapuli=buyurtma*30000;
-                                balans=balans-buyurtmapuli;
-                                System.out.println("Siz Chicken cornga buyurtma qildingiz narxi "+ buyurtmapuli +" sum bo'ldi va sizda "+ balans +" sum pul qoldi. ");
-                                System.out.println("Sizning buyurtmangiz "+ vaqt +" daqiqa ichida yetib boradi. ");
-                            }
-                            break;
+                        System.out.println("Chicken corn narxi 30000 ");
+                        System.out.println("Buyurtma qilasizmi 1.HA , 2.YO'Q ");
+                        int Chickencornnarxi= scanner.nextInt();
+                        if (Chickencornnarxi==1){
+                            System.out.println("Nechta buyurtma qilasiz");
+                            int buyurtma= scanner.nextInt();
+                            int buyurtmapuli=buyurtma*30000;
+                            balans=balans-buyurtmapuli;
+                            System.out.println("Siz Chicken cornga buyurtma qildingiz narxi "+ buyurtmapuli +" sum bo'ldi va sizda "+ balans +" sum pul qoldi. ");
+                            System.out.println("Sizning buyurtmangiz "+ vaqt +" daqiqa ichida yetib boradi. ");
+                        }
+                        break;
                     case 3:
                         System.out.println("Nuggets narxi 22000 ");
                         System.out.println("Buyurtma qilasizmi 1.HA , 2.YO'Q ");
@@ -811,18 +811,18 @@ public class Example {
                         }
                         break;
                     case 6:
-                            System.out.println("Hydrolife narxi 5000 ");
-                            System.out.println("Buyurtma qilasizmi 1.HA , 2.YO'Q ");
-                            int Hydrolifenarxi= scanner.nextInt();
-                            if (Hydrolifenarxi==1){
-                                System.out.println("Nechta buyurtma qilasiz");
-                                int buyurtma= scanner.nextInt();
-                                int buyurtmapuli=buyurtma*5000;
-                                balans=balans-buyurtmapuli;
-                                System.out.println("Siz Hydrolifega buyurtma qildingiz narxi "+ buyurtmapuli +" sum bo'ldi va sizda "+ balans +" sum pul qoldi. ");
-                                System.out.println("Sizning buyurtmangiz "+ vaqt +" daqiqa ichida yetib boradi. ");
-                            }
-                            break;
+                        System.out.println("Hydrolife narxi 5000 ");
+                        System.out.println("Buyurtma qilasizmi 1.HA , 2.YO'Q ");
+                        int Hydrolifenarxi= scanner.nextInt();
+                        if (Hydrolifenarxi==1){
+                            System.out.println("Nechta buyurtma qilasiz");
+                            int buyurtma= scanner.nextInt();
+                            int buyurtmapuli=buyurtma*5000;
+                            balans=balans-buyurtmapuli;
+                            System.out.println("Siz Hydrolifega buyurtma qildingiz narxi "+ buyurtmapuli +" sum bo'ldi va sizda "+ balans +" sum pul qoldi. ");
+                            System.out.println("Sizning buyurtmangiz "+ vaqt +" daqiqa ichida yetib boradi. ");
+                        }
+                        break;
                 }
                 break;
             case 12:

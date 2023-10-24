@@ -9,7 +9,6 @@ public class Yandexeats {
     public static Scanner scan = new Scanner(System.in);
     public static Random random = new Random();
     public static void main(String[] args) {
-        System.out.println("Restaurants ");
         backtomenu = true;
         while (backtomenu) {
             Methods.categories();
@@ -24,6 +23,9 @@ public class Yandexeats {
                             break;
                         case 2:
                             Meals.yaponamama();
+                            break;
+                        case 0:
+                            backtomenu = true;
                             break;
                     }
                     break;
@@ -88,6 +90,7 @@ public class Yandexeats {
                                 break;
                             case 2:
                                 Methods.uzbek();
+                                moreback = false;backtomenu = false;
                                 break;
                             case 3:
                                 Methods.asia();
@@ -105,7 +108,7 @@ public class Yandexeats {
                                 moreback = false;
                                 break;
                             default:
-                                System.out.println("You didn't choose any menu :(");
+                                System.out.println("You didn't choose any menu :(");        //menu
                                 break;
                         }
                     }
