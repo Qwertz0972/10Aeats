@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.HashSet;
 
 public class Methods {
     public static void categories() {
@@ -9,7 +10,25 @@ public class Methods {
     }
 
     public static void more() {
-        String[] more = {"1.Russian", "2.Uzbek", "3.Asia", "4.Japan", "5.China", "6.Coffee", "7.Desserts"};
+        String[] more = {"1.Russian", "2.Uzbek", "3.Asia", "4.Japan", "5.Coffee", "6.Desserts","0.Back"};
+        for (int i = 0; i < more.length; i++) {
+            System.out.println(more[i]);
+        }
+    }
+
+    public static void All(){
+        String[] All = {"Wok", "Yapona Mama", "Street 77", "Maurice","Feed up","Les Ailes","Wendy's","Black Star Burger","Sushi Wok Master","SushiMoscow","Tokyobae","Tokyobae","Street 77","Chopar Pizza","MoscowPizza","PASTA PASTA","Maurice","Karadeniz","Maurice","Socials","Marmar","Bistro24","Gamarjoba","Gruzinskiy Dvornik","PASTA PASTA","MoscowPizza","Cafe il migliore","Mazzali","Mechta","Shahlo","Osh Kamolon","Gumma & Xonim","Olot somsa haqiqiysi","Yapona Mama","Wok","Tanuki","Woker","Takumi Sushi","Tanuki","Sushi Wok Master","Tokyobae","Coffee & Co","Dopamine Coffee","Wendy's","B & B","Taksim Kebab","Mahmud Kebab","Panda Dessert"};
+        HashSet<String> uniqueStrings = new HashSet<>();
+
+        int counter = 0;
+        // Iterate over the array
+        for (String str : All) {
+            counter++;
+            if (!uniqueStrings.contains(str)) {
+                System.out.println(counter + "." + str);
+                uniqueStrings.add(str);
+            }
+        }
     }
 
     public static void carryout() {
@@ -47,4 +66,104 @@ public class Methods {
             System.out.println(counter + "." + pizza[i]);
         }
     }
+
+    public static void pasta() {
+        String[] pasta = {"PASTA PASTA","Maurice"};
+        int counter = 0;
+        for (int i = 0; i < pasta.length; i++) {
+            counter++;
+            System.out.println(counter + "." + pasta[i]);
+        }
+    }
+
+    public static void breakfasts() {
+        String[] breakfasts = {"Coffe & Co","Karadeniz","Maurice","Socials"};
+        int counter = 0;
+        for (int i = 0; i < breakfasts.length; i++) {
+            counter++;
+            System.out.println(counter + "." + breakfasts[i]);
+        }
+    }
+
+    public static void lunch() {
+        String[] lunch = {"Marmar","Bistro24"};
+        int counter = 0;
+        for (int i = 0; i < lunch.length; i++) {
+            counter++;
+            System.out.println(counter + "." + lunch[i]);
+        }
+    }
+
+    public static void georgia() {
+        String[] georgia = {"Gamarjoba","Gruzinskiy Dvornik"};
+        int counter = 0;
+        for (int i = 0; i < georgia.length; i++) {
+            counter++;
+            System.out.println(counter + "." + georgia[i]);
+        }
+    }
+    public static void italy() {
+        String[] italy = {"PASTA PASTA","MoscowPizza","Cafe il migliore"};
+        int counter = 0;
+        for (int i = 0; i < italy.length; i++) {
+            counter++;
+            System.out.println(counter + "." + italy[i]);
+        }
+    }
+
+    public static void russian() {
+        String[] meals = {"Mazzali","Mechta","Shahlo"};
+        int counter = 0;
+        for (int i = 0; i < meals.length; i++) {
+            counter++;
+            System.out.println(counter + "." + meals[i]);
+        }
+    }
+
+    public static void uzbek() {
+        String[] meals = {"Osh Kamolon","Gumma & Xonim","Olot somsa haqiqiysi"};
+        int counter = 0;
+        for (int i = 0; i < meals.length; i++) {
+            counter++;
+            System.out.println(counter + "." + meals[i]);
+        }
+    }
+
+    public static void asia() {
+        String[] meals = {"Yapona Mama","Wok","Tanuki","Woker"};
+        int counter = 0;
+        for (int i = 0; i < meals.length; i++) {
+            counter++;
+            System.out.println(counter + "." + meals[i]);
+        }
+    }
+
+    public static void japan() {
+        String[] meals = {"Takumi Sushi","Tanuki","Sushi Wok Master","Tokyobae"};
+        int counter = 0;
+        for (int i = 0; i < meals.length; i++) {
+            counter++;
+            System.out.println(counter + "." + meals[i]);
+        }
+    }
+
+    public static void coffee() {
+        String[] meals = {"Coffee & Co","Dopamine Coffee","Wendy's","B & B"};
+        int counter = 0;
+        for (int i = 0; i < meals.length; i++) {
+            counter++;
+            System.out.println(counter + "." + meals[i]);
+        }
+    }
+
+    public static void desserts() {
+        String[] meals = {"Taksim Kebab","Mahmud Kebab","Panda Dessert"};
+        int counter = 0;
+        for (int i = 0; i < meals.length; i++) {
+            counter++;
+            System.out.println(counter + "." + meals[i]);
+        }
+    }
+
+
 }
