@@ -121,6 +121,8 @@ public class Yandexeats {
                     switch (lunchrestaurants){
                         case 1:
                             break;
+                        case 2:
+                            break;
                         case 0:
                             backtomenu = true;
                             break;
