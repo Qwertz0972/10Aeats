@@ -43,6 +43,12 @@ public class Yandexeats {
                 case 3:
                     Methods.burgers();
                     backtomenu = false;
+                    int burgersrestaurants = scan.nextInt();
+                    switch (burgersrestaurants){
+                        case 1:
+                            Example.Street77();
+                            break;
+                    }
                     break;
                 case 4:
                     Methods.sushi();
