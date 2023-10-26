@@ -120,7 +120,7 @@ public class Meals {
                     break;
                 case 0:
                     Yandexeats.TorF = false;
-                    Yandexeats.backtomenu = true;
+                    Yandexeats.backToMenu = true;
                     break;
                 case 20:
                     System.out.println("Your order costs: " + sumkorzina + " sum");
@@ -257,7 +257,7 @@ public class Meals {
                     break;
                 case 0:
                     Yandexeats.TorF = false;
-                    Yandexeats.backtomenu = true;
+                    Yandexeats.backToMenu = true;
                     break;
                 case 23:
                     if(sumkorzina == 0){

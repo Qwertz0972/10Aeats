@@ -12,7 +12,7 @@ public class Example {
         int vaqt;
         vaqt = random.nextInt(10, 40);
 
-        int nechtaligi=0;
+
         System.out.println("MENU ");
         System.out.println("1. Pizza    2. Burgers    3. Rolli ");
         System.out.println("4. Hot dogs    2. Snacks    6. Combo");
