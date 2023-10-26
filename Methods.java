@@ -3,7 +3,7 @@ import java.util.HashSet;
 
 public class Methods {
     public static void categories() {
-        String[] categories = {"1.All", "2.Carry-out", "3.Burgers", "4.Sushi", "5.Pizza", "6.Pasta", "7.Breakfasts", "8.Lunch", "9.Georgia", "10.Italy", "11.More"};
+        String[] categories = {"1.All", "2.Carry-out 🧃", "3.Burgers 🍔", "4.Sushi 🍣", "5.Pizza 🍕", "6.Pasta 🍝", "7.Breakfasts 🥪", "8.Lunch 🥗", "9.Georgia ", "10.Italy", "11.More"};
         for (int i = 0; i < categories.length; i++) {
             System.out.println(categories[i]);
         }
