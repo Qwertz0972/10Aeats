@@ -94,7 +94,7 @@ public class Yandexeats {
                             break;
                     }
                 }
-            }else if(!passwordcheck.equals(password[2])){
+            }else if(!passwordcheck.equals(password[i])){
                 System.out.println("Incorrect login,username or password");
             }
         }
